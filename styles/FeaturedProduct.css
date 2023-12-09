@@ -1,0 +1,15 @@
+.featured_Pro_img{
+  width: 200px!important;
+  height: 200px!important;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+}
+.featured_Pro_img:hover{
+  transform: scale(1.1);
+}
+
+
+.featured_product_style{
+  border: 1px solid #666;
+}

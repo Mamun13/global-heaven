@@ -1,0 +1,21 @@
+.about_banner {
+  height: 300px;
+  object-fit: cover;
+}
+.about_us_tab_active {
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  color: var(--theme-color);
+  font-weight: 600;
+}
+.active-l {
+  background-color: #fff;
+  color: var(--theme-color);
+  border-left: 3px solid var(--theme-color);
+}
+.side_nav_manu_color {
+  background-color: #ffdadb;
+  border-radius: 20px;
+}

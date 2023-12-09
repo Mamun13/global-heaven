@@ -1,0 +1,13 @@
+.catelogue_banner{
+    position: relative;
+}
+.catelogue_banner::after{
+    position: absolute;
+    content: '';
+    
+}
+.catelogue_img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}

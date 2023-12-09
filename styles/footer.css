@@ -1,0 +1,29 @@
+.footer_bg {
+  background-color: #1b1b1b;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.footer_logo{
+  height: 70px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+.logo_side {
+  color: #8d8d8d;
+}
+.about_title {
+  font-size: 18px;
+}
+.copyright {
+  border-top: 1px solid #8d8d8d;
+}
+.copyright {
+  background-color: #1b1b1b;
+  color: #8d8d8d;
+}
+.footer_link_hover{
+  transition: all linear 0.3s;
+}
+.footer_link_hover:hover{
+  color: #ed1c24;
+}

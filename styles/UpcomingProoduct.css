@@ -1,0 +1,31 @@
+.upcoming_slider{
+  background-color: #F3F6FB;
+  height: 500px;
+}
+.up_pro_img{
+  height: 450px;
+  /* width: 450px; */
+  object-fit: contain!important;
+}
+.update_product{
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.upcoming_slider .slick-prev:before {
+  content: 'asdad';
+  background-image: url(../public/arrow.png);
+}
+.upcoming_slider .slick-prev:before,
+.upcoming_slider .slick-next:before {
+  content: "" !important;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../public/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.upcoming_slider .slick-prev:before{
+  transform: rotate(180deg);
+}

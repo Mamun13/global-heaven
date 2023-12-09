@@ -1,0 +1,123 @@
+.overbanner {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #0000002e;
+}
+.overbanner2 {
+  position: absolute;
+  top: 5.5%;
+  left: 0;
+  right: 0;
+  /* background-color: #221a177b; */
+  /* animation-name: mamun;
+  animation-duration: 1s;*/
+
+  z-index: 999999;
+}
+.theme_bg.offcanvas.offcanvas-end.show{
+  z-index: 999999;
+}
+
+.sticky2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #666 !important;
+  animation-name: animate;
+  animation-duration: 1s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  z-index: 999999;
+}
+.sticky2 .sticky_text_color {
+  color: #2f2f2f !important;
+  font-weight: 600;
+}
+@keyframes animate {
+  from {
+    top: -10%;
+  }
+  to {
+    top: 0%;
+  }
+}
+/* .all-side-icons {
+  font-size: 18px;
+  color: #666 !important;
+  transition: all linear 0.3s;
+}
+.all-side-icons::after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  width: 100%;
+  height: 2px;
+} */
+
+.all-icons {
+  display: block;
+  color: #666 !important;
+  transition: all linear 0.3s;
+}
+
+.all-icons:hover {
+  display: block;
+  color: #fff !important;
+  background-color: var(--theme-color) !important;
+}
+.cate-drop {
+  font-size: 14px;
+}
+.cate-drop:hover {
+  color: #fff !important;
+}
+.social_icon {
+  color: #e1e1e1;
+}
+.after_border::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: red;
+  transition: all linear 0.3s;
+}
+.after_border:hover::after {
+  width: 100%;
+}
+.subMenu {
+  /* background-image: url("/pageBg.jpg"); */
+  background-position: left bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 0;
+  display: flex;
+  justify-content: end;
+}
+.navBox {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 20px !important;
+  column-gap: 15px !important;
+}
+
+@keyframes myanimation {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
