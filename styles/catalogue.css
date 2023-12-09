@@ -11,3 +11,18 @@
     width: 100%;
     object-fit: cover;
 }
+
+
+.cat_img{
+    height: 200px;
+}
+.cat_img::after{
+    position: absolute;
+    content: 'dsadasd';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    z-index: 99999;
+}

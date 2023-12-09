@@ -238,13 +238,7 @@ const HeaderOld = () => {
                   >
                     mission & vision
                   </NavDropdown.Item>
-                  <NavDropdown.Item
-                    as={Link}
-                    href="/page/employee-info"
-                    className="cate-drop text-light text-capitalize all-icons text-dark px-4 py-2 d-block"
-                  >
-                    employee info
-                  </NavDropdown.Item>
+                  
                   <NavDropdown.Item
                     as={Link}
                     href="/page/factories"
@@ -361,7 +355,7 @@ const HeaderOld = () => {
 
                 <Nav.Link
                   as={Link}
-                  href="/"
+                  href="/catalogue"
                   className="d-flex align-items-center font-16 my-2 text-light"
                 >
                   <span className="text-capitalize position-relative after_border pb-2 sticky_text_color">
